@@ -6,6 +6,7 @@
     "scripts": {
         "dev": "expo start --web -c",
         "start": "expo start -c",
+        "check": "expo install --check",
         "start:dev:android": "expo start --android -c",
         "start:dev:ios": "expo start --ios -c",
         "start:pro": "vite --host --mode production",
@@ -38,7 +39,7 @@
         "react-dom": "^19.2.7",
         "react-native": "^0.85.3",
         "react-native-gesture-handler": "^3.0.0",
-        "react-native-keyboard-controller": "^1.21.9",
+        "react-native-keyboard-controller": "^1.21.10",
         "react-native-reanimated": "^4.4.1",
         "react-native-safe-area-context": "^5.8.0",
         "react-native-screens": "^4.25.2",

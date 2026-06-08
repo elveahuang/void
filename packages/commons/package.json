@@ -5,7 +5,7 @@
     "dependencies": {
         "@ai-sdk/openai": "^3.0.68",
         "@ai-sdk/react": "^3.0.199",
-        "@iconify/json": "^2.2.483",
+        "@iconify/json": "^2.2.484",
         "@iconify/react": "^6.0.2",
         "@repo/config": "workspace:*",
         "@tiptap/pm": "^3.26.0",

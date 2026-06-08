@@ -1,7 +1,8 @@
 import { Stack } from 'expo-router';
-import { Platform, StyleSheet } from 'react-native';
+import { JSX } from 'react';
+import { Platform } from 'react-native';
 
-export default function Layout() {
+export default function Layout(): JSX.Element {
     return (
         <Stack
             screenOptions={{
@@ -16,10 +17,3 @@ export default function Layout() {
         </Stack>
     );
 }
-
-const styles = StyleSheet.create({
-    logo: {
-        width: 80,
-        height: 24,
-    },
-});

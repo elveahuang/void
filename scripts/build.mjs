@@ -6,8 +6,8 @@ const args = process.argv.splice(2);
 const profile = args && args.length && args.length > 0 ? args[0] : 'pro';
 console.log(`Current workspace - ${root}. profile - ${profile}`);
 // 编译前端模块
+await buildModule('cms', profile);
 await buildModule('webapp', profile);
-await buildModule('mobile', profile);
 // 清空构建目录
 await clearPath(resolve(root, 'dist'));
 // 复制前端模块
