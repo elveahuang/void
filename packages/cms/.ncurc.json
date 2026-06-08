@@ -1,0 +1,3 @@
+{
+    "reject": ["drizzle-orm", "drizzle-kit", "drizzle-zod"]
+}
