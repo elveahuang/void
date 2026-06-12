@@ -3,31 +3,17 @@
     "version": "26.3.0",
     "private": true,
     "dependencies": {
-        "@ai-sdk/openai": "^3.0.69",
-        "@ai-sdk/react": "^3.0.201",
-        "@iconify/json": "^2.2.484",
-        "@iconify/react": "^6.0.2",
         "@repo/config": "workspace:*",
-        "@tiptap/pm": "^3.26.0",
-        "@tiptap/react": "^3.26.0",
-        "@tiptap/starter-kit": "^3.26.0",
-        "ai": "^6.0.199",
-        "async-validator": "^4.2.5",
-        "clsx": "^2.1.1",
-        "dayjs": "^1.11.21",
-        "es-toolkit": "^1.47.0",
-        "query-string": "^9.4.0",
         "react": "^19.2.7",
         "react-dom": "^19.2.7",
         "tailwind-merge": "^3.6.0",
-        "validator": "^13.15.35",
-        "zustand": "^5.0.14"
+        "tailwind-variants": "^3.2.2",
+        "tailwindcss": "^4.3.0"
     },
     "devDependencies": {
-        "@types/node": "^25.9.2",
+        "@types/node": "^25.9.3",
         "@types/react": "^19.2.17",
         "@types/react-dom": "^19.2.3",
-        "tailwindcss": "^4.3.0",
         "typescript": "^6.0.3"
     }
 }
