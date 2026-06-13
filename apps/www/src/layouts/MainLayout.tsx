@@ -1,5 +1,5 @@
 import React, { JSX, PropsWithChildren, Suspense } from 'react';
-import { Outlet } from 'react-router';
+import { Outlet } from '@tanstack/react-router';
 
 export type MainLayoutProps = React.PropsWithChildren<{ layoutClassName?: string }>;
 
