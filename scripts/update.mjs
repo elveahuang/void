@@ -1,5 +1,5 @@
-import {resolve} from 'node:path';
-import {initModule, updateModule} from './utils.mjs';
+import { resolve } from 'node:path';
+import { initModule, updateModule } from './utils.mjs';
 
 const root = resolve(process.cwd());
 console.log(`Current workspace - ${root}`);
