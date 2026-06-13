@@ -1,0 +1,15 @@
+{
+    "extends": "@repo/config/typescript/react.json",
+    "compilerOptions": {
+        "types": ["vite/client"],
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "baseUrl": ".",
+        "paths": {
+            "@commons/core/*": ["../../packages/commons/src/*"],
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/dev/types/**/*.ts"],
+    "exclude": ["node_modules"]
+}

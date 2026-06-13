@@ -1,33 +1,23 @@
 {
-    "name": "@repo/webapp",
+    "name": "@repo/www",
     "version": "26.3.0",
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "vp dev",
-        "build": "vp build",
-        "preview": "vp preview",
-        "init": "void init --tsconfig",
-        "db:generate": "void db generate",
-        "db:migrate": "void db migrate",
-        "db:status": "void db status"
+        "start:dev": "vite --host --mode development",
+        "start:pro": "vite --host --mode production",
+        "build:dev": "vite build --mode development",
+        "build:pro": "vite build --mode production"
     },
     "dependencies": {
-        "@better-auth-ui/core": "^1.6.20",
-        "@better-auth-ui/heroui": "^1.6.20",
-        "@better-auth-ui/react": "^1.6.20",
         "@heroui/react": "^3.1.0",
         "@heroui/styles": "^3.1.0",
-        "@hono/node-server": "^2.0.4",
         "@repo/commons": "workspace:*",
         "@repo/config": "workspace:*",
-        "@void/md": "^0.9.3",
-        "@void/react": "^0.9.3",
-        "better-auth": "^1.6.18",
-        "hono": "^4.12.25",
-        "pg": "^8.21.0",
         "react": "^19.2.7",
         "react-dom": "^19.2.7",
+        "react-router": "^7.17.0",
+        "react-router-dom": "^7.17.0",
         "tailwind-merge": "^3.6.0",
         "tailwind-variants": "^3.2.2",
         "tailwindcss": "^4.3.1"
@@ -37,11 +27,10 @@
         "@types/node": "^25.9.3",
         "@types/react": "^19.2.17",
         "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^6.0.2",
         "typescript": "^6.0.3",
         "unplugin-auto-import": "^21.0.0",
         "unplugin-icons": "^23.0.1",
-        "vite": "^8.0.16",
-        "vite-plus": "^0.1.24",
-        "void": "^0.9.3"
+        "vite": "^8.0.16"
     }
 }
